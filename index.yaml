@@ -1,0 +1,95 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.102561-04:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: e92d27cea0581015940ba5d888cf96894604eefc3b96c4e30d831842d1cd56bd
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ddymko.github.io/istio-helm/base-1.9.3.tgz
+    version: 1.9.3
+  istio-cni:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.102936-04:00"
+    description: Helm chart for istio-cni components
+    digest: 345cad2739b1ccbd74ff80843b223a746d6d43cebefb6daa121f7a19ac5452ab
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    name: istio-cni
+    sources:
+    - http://github.com/istio/cni
+    urls:
+    - https://ddymko.github.io/istio-helm/istio-cni-1.9.3.tgz
+    version: 1.9.3
+  istio-discovery:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.10523-04:00"
+    description: Helm chart for istio control plane
+    digest: cc1934befc346b7f7c188a328b962f0372f174c1bc1bc47878b4f17e2ee9da57
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ddymko.github.io/istio-helm/istio-discovery-1.9.3.tgz
+    version: 1.9.3
+  istio-egress:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.106598-04:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 4dbc2cd94584343284695742ff80beeffd3a636e242aab7406c020bcb11da11a
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ddymko.github.io/istio-helm/istio-egress-1.9.3.tgz
+    version: 1.9.3
+  istio-ingress:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.107635-04:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 5cbb21e086bf1a486faa6a86da9de4a23d82184065380fd026caa3b485880e79
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://ddymko.github.io/istio-helm/istio-ingress-1.9.3.tgz
+    version: 1.9.3
+  istio-operator:
+  - apiVersion: v1
+    created: "2021-04-20T22:08:31.107956-04:00"
+    description: Helm chart for deploying Istio operator
+    digest: c9805ef8086ddead625985ed6583524d8fa1ae970760a9ef7c347a32ae9e3f24
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: istio-operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://ddymko.github.io/istio-helm/istio-operator-1.9.3.tgz
+    version: 1.9.3
+generated: "2021-04-20T22:08:31.101021-04:00"
